@@ -1,5 +1,78 @@
+:root{
+    --main-color: #EE7D01;
+    --main-grey: #443B3A;
+}
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
-body{
+*{
+    color: var(--main-grey);
     font-family: 'Poppins', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
+.nav-link.active{
+    color: var(--main-color) !important;
+    font-weight: bold;
+}
+
+.carousel-inner_overlay{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background-color: var(--main-grey);
+    opacity: 0.5;
+}
+
+.carousel-caption{
+    position: absolute; 
+    top: 50%;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    transform: translateY(-50%);
+    z-index: 10;
+}
+
+.carousel-caption h5{
+    font-size: 5rem;
+    margin: 5rem;
+}
+
+.cta-button{
+    margin: 5rem;
+    padding: 1.5rem 4rem;
+    background-color: var(--main-grey);
+    color: white;
+    font-size: 2rem;
+    font-weight: 200;
+    border-radius: 0;
+}
+
+.cta-button:hover{
+    border: 2px solid white;
+}
+
+.menu-secondary a{
+    text-decoration: none;
+}
+
+.menu-secondary h3{
+    color: white;
+}
+
+.menu-secondary_title{
+    background-color: var(--main-grey);
+}
+
+.menu-secondary_title h3{
+    color: white;
+}
+
+.menu-secondary_univers{
+    background-color: var(--main-grey);
+    opacity: 0.8;
+}
+
+

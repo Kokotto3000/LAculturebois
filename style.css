@@ -91,4 +91,21 @@
 
 .chauffage-banner{
     background: url(./img/Tulikivi_Soapstone_Hotel_Isosyote_fireplace.jpg) center / cover fixed;
+    position: relative;
+}
+
+.chauffage-banner-title{
+    color: #EE7D01;
+    position: inherit;
+    z-index: 10;
+}
+
+.chauffage-banner-overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .5);
+    z-index: 1;
 }

@@ -109,3 +109,25 @@
     background-color: rgba(0, 0, 0, .5);
     z-index: 1;
 }
+
+.chevron-left, .chevron-right{
+    display: none;
+}
+
+@media (min-width: 1440px) {
+    .chevron-left{
+        display: block;
+        position: absolute;
+        top: 50%;
+        left: -5%;
+        width: fit-content;
+    }
+    
+    .chevron-right{
+        display: block;
+        position: absolute;
+        top: 50%;
+        right: -5%;
+        width: fit-content;
+    }
+}

@@ -46,7 +46,7 @@ body{
 .cta-button{
     /* margin: 5rem; */
     padding: 1rem 3rem;
-    margin-top: 1rem;
+    /* margin-top: 1rem; */
     color: var(--main-color);
     font-size: 2rem;
     font-weight: 200;
@@ -150,7 +150,7 @@ body{
     z-index: 10;
 }
 
-#story h1, #story h2, #story h3{
+#story h1, #story h2, #story h3, #contact h2{
     color: var(--main-color);
 }
 
@@ -167,9 +167,9 @@ body{
     padding: 1rem;
 }
 
-#contact{
+/* #contact{
     background-color: rgba(68,59,58, .5);
-}
+} */
 
 footer{
     background-color: var(--main-grey);
@@ -278,4 +278,37 @@ footer .nav-item a{
 
 .fire-icon{
     max-width: 150px;
+}
+
+.news-title{
+    color: var(--main-color)
+}
+
+/* .blog-bg{
+    background-color: rgba(68,59,58, .8);
+} */
+
+.gradient{
+    background: rgb(255,255,255);
+    background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(68,59,58,1) 50%);
+}
+
+#blog .card{
+    height: 350px;
+    border: none;
+}
+
+#blog .card:hover .btn-suite{
+    background-color: var(--main-color);
+    color: white;
+}
+
+.btn-suite:hover{
+    background-color: var(--main-color);
+    color: white;
+}
+
+#blog a:not(.btn){
+    text-decoration: none;
+    color: white;
 }

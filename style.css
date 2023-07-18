@@ -211,9 +211,7 @@ footer .nav-item a{
 
 .swiper-slide {
     color: white !important;
-    display: block;
     height: 300px !important;
-    margin: 10px 0;
     display: flex;
     flex-direction: column;
     overflow: hidden;
@@ -222,7 +220,6 @@ footer .nav-item a{
 }
 
 .swiper-slide:hover {
-    
     box-shadow: 0 24px 40px -24px rgba(42, 52, 61, .4);
 }
 
@@ -233,8 +230,7 @@ footer .nav-item a{
 
 .swiper-slide .slider_second-content {
     position: absolute;
-    bottom: -100%;
-    padding: 20px;
+    bottom: -300px;
     opacity: 0;
     height: 100%;
     width: 100%;
@@ -246,9 +242,8 @@ footer .nav-item a{
 
 .swiper-slide:hover .slider_second-content {
     background: linear-gradient(180deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0.8) 50%, rgba(0, 0, 0, 0.5) 100%);
-    transform: translateY(-100%);
+    transform: translateY(-300px);
     opacity: 1;
-    /* transition: 400ms ease-out; */
 }
 
 #navbarSupportedContent a {
@@ -263,7 +258,7 @@ footer .nav-item a{
   height: 2px;
   left: 50%;
   position: absolute;
-  background:var(--main-color);
+  background: var(--main-color);
   transition: width 0.3s ease 0s, left 0.3s ease 0s;
   width: 0;
 }
@@ -311,4 +306,14 @@ footer .nav-item a{
 #blog a:not(.btn){
     text-decoration: none;
     color: white;
+}
+
+.fire-effect:hover{
+    animation: fire-effect 1000ms cubic-bezier(.4, 0, .6, 1) 0ms infinite normal;
+}
+
+@keyframes fire-effect {
+    50%{
+        opacity: 0.4;
+    }
 }

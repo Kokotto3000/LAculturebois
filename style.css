@@ -391,3 +391,7 @@ h2.featurette-heading, .text-body-emphasis{
         transform: scale(var(--fa-beat-fade-scale,1.125));
     }
 }
+
+footer li a.nav-link:hover, footer li a.nav-link:active{
+    color: white;
+}

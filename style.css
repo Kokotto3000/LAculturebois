@@ -209,6 +209,10 @@ footer .nav-item a{
     align-items: center;
 }
 
+.socials-icon:hover{
+    background-color: white;
+}
+
 .socials .socials-icon a{
     display: block;
     font-size: 2rem;

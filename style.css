@@ -18,7 +18,7 @@ body{
     font-weight: bold;
 }
 
-.carousel-inner_overlay{
+.carousel-inner_overlay, .blog-inner_overlay{
     position: absolute;
     top: 0;
     right: 0;
@@ -26,6 +26,24 @@ body{
     height: 100%;
     background-color: var(--main-grey);
     opacity: 0.5;
+    transition: opacity 200ms ease-in-out;
+}
+
+.blog-card{
+    cursor: pointer;
+    transition: all 200ms ease-in-out;
+}
+
+.blog-card:hover{
+    transform: scale(1.05);
+}
+
+.blog-card li{
+    color: var(--main-color);
+}
+
+.blog-card:hover .blog-inner_overlay{
+    opacity: 0;
 }
 
 .carousel-caption{
@@ -51,7 +69,7 @@ body{
     font-weight: 400;
     border-radius: 5px;
     border: 2px solid white;
-    transition: all 400ms ease-in 100ms;
+    transition: all 200ms ease-in 100ms;
     background-color: rgba(255, 255, 255, .7);
 }
 
@@ -351,4 +369,25 @@ footer .nav-item a{
 
 h2.featurette-heading, .text-body-emphasis{
     color: var(--main-grey) !important;
+}
+
+.fa-beat-fade {
+    
+    animation-iteration-count: var(--fa-animation-iteration-count,infinite);
+    animation-timing-function: var(--fa-animation-timing,cubic-bezier(.4,0,.6,1));
+}
+
+.cta-button:hover .beat-fade{
+    animation: beat-fade 1000ms cubic-bezier(.4, 0, .6, 1) 0ms infinite normal both;
+}
+
+@keyframes beat-fade {
+    0%, 100% {
+        opacity: var(--fa-beat-fade-opacity,.4);
+        transform: scale(1);
+    }
+    50% {
+        opacity: 1;
+        transform: scale(var(--fa-beat-fade-scale,1.125));
+    }
 }

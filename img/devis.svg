@@ -1,0 +1,7 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 442 512" width="442" height="512">
+	<title>facture</title>
+	<style>
+		.s0 { fill: #ee7d01 } 
+	</style>
+	<path id="Path 0" fill-rule="evenodd" class="s0" d="m0 0h342.5l99.5 99.5v412.5h-442zm30 482h382v-362h-91v-90h-291zm320.8-410.3l0.2 18.3h39.5c-29-29.4-37.6-38-37.8-38-0.2 0-0.7 0.3-1.2 0.7-0.5 0.3-0.8 8.9-0.7 19zm-290.8-11.7h101v30h-101zm100.5 60.5v30h-100l-0.2-14c-0.1-7.6 0-14.5 0.2-15.2 0.4-1.1 10-1.3 100-0.8zm-100.5 120.5h322v30h-322zm0 60h322v151h-322zm30 60h30v-30h-30zm60 0h202v-30h-202zm-60 61h30v-30h-30zm60 0h202v-30h-202z"/>
+</svg>

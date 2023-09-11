@@ -443,3 +443,29 @@ a.page-link:hover, a.page-link:focus{
 .menu-secondary_univers.category-menu:hover img, .menu-secondary_univers.category-menu:active img, .menu-secondary_univers.category-menu:focus img{
     filter: none;
 }
+
+.product-menu{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.btn-group {
+    margin: 0 auto;
+    width: 100%;
+}
+
+.btn-outline-primary{
+    color: var(--main-color);
+    border: 1px var(--main-color) solid;
+}
+
+.btn.btn-outline-primary:hover, .btn.btn-outline-primary:active, .btn.btn-outline-primary:focus{
+    color: white;
+    background-color: var(--main-color);
+    border: 1px var(--main-color) solid;
+}
+
+.product-carousel{
+    max-height: 400px;
+}

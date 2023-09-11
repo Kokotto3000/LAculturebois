@@ -399,3 +399,47 @@ h2.featurette-heading, .text-body-emphasis{
 footer li a.nav-link:hover, footer li a.nav-link:active{
     color: white;
 }
+
+.product-plus{
+    color: var(--main-color);
+    border: 1px #EE7D01 solid;
+}
+
+.page-link{
+    color: var(--main-color);
+}
+
+.active>.page-link, .page-link.active {
+    z-index: 3;
+    color: var(--bs-pagination-active-color);
+    background-color: var(--main-color);
+    border-color: var(--main-color);
+}
+
+.page-link:focus {
+    box-shadow: 0 0 0 0.25rem rgba(238, 125, 1, 0.25);
+}
+
+a.page-link:hover, a.page-link:focus{
+    color: black;
+}
+
+.category-menu_img{
+    filter: blur(1px);
+}
+
+.menu-secondary_univers.category-menu:hover, .menu-secondary_univers.category-menu:active, .menu-secondary_univers.category-menu:focus{
+    opacity: 1;
+}
+
+.menu-secondary_univers.category-menu h2{
+    transition: color 300ms ease 0s;
+}
+
+.menu-secondary_univers.category-menu:hover h2, .menu-secondary_univers.category-menu:active h2, .menu-secondary_univers.category-menu:focus h2{
+    color: var(--main-color);
+}
+
+.menu-secondary_univers.category-menu:hover img, .menu-secondary_univers.category-menu:active img, .menu-secondary_univers.category-menu:focus img{
+    filter: none;
+}

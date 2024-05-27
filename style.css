@@ -7,11 +7,26 @@
 
 *{
     font-family: 'Poppins', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+*:focus-visible{
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem rgba(238, 125, 1, 0.25) !important; 
 }
 
 body{
     color: var(--main-grey);
 }
+
+a{
+    text-decoration: none;
+    color: var(--main-color);
+}
+
+/* a:hover, a:active, a:focus{
+    text-decoration: underline wavy;
+} */
 
 .nav-link.active{
     color: var(--main-color) !important;
@@ -109,7 +124,7 @@ body{
     transition: all ease-out 400ms;
 }
 
-.menu-secondary_univers:hover{
+.menu-secondary_univers:hover, .menu-secondary_univers:focus, .menu-secondary_univers:active{
     transform: scale(1.05);
     box-shadow: 0 24px 40px -24px rgba(42, 52, 61, .4);
 }
@@ -133,8 +148,13 @@ body{
 }
 
 .chauffage-banner{
-    background: url(./img/Tulikivi_Soapstone_Hotel_Isosyote_fireplace.jpg) center / cover fixed;
-    position: relative;
+    background: linear-gradient(
+        to bottom,
+        rgba(68,59,58, 0.6),
+        rgba(68,59,58, 1)), url(./img/petro-1.jpg);
+    background-position: center center;
+    background-size: 100%;
+    /* background-attachment: fixed; */
 }
 
 .chauffage-banner-title{
@@ -484,8 +504,15 @@ a.page-link:hover, a.page-link:focus{
     width: 15px;
 }
 
+.carousel-indicators [data-bs-target]:focus-visible{
+    background-color: white;
+}
+
 #carouselProductIndicators{
     height: fit-content;
+}
+#carouselProductIndicators .carousel-inner{
+    border-radius: 0.5rem;
 }
 
 #collapseTechnic li span {
@@ -501,4 +528,37 @@ a.page-link:hover, a.page-link:focus{
     border-radius: 0.5rem;
     padding: 0.5rem 1rem;
     font-weight: bold;
+}
+
+.disabled>.page-link{
+    background-color: rgba(68,59,58, 0.3);
+    border-color: rgba(68,59,58, 0.3) ;
+}
+
+.page-link{
+    border-color: rgba(68,59,58, 0.3) ;
+}
+
+@media (min-width: 1050px) {
+    .modal-dialog {
+        max-width: 1000px;
+    }
+}
+
+
+.btn-close {
+    background: transparent url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23ee7d01'%3e%3cpath d='M.293.293a1 1 0 0 1 1.414 0L8 6.586 14.293.293a1 1 0 1 1 1.414 1.414L9.414 8l6.293 6.293a1 1 0 0 1-1.414 1.414L8 9.414l-6.293 6.293a1 1 0 0 1-1.414-1.414L6.586 8 .293 1.707a1 1 0 0 1 0-1.414z'/%3e%3c/svg%3e") center / 1em auto no-repeat;
+}
+
+.btn-close:focus{
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem rgba(238, 125, 1, 0.25) !important; 
+}
+
+footer .nav-item a:focus-visible {
+    color: white;
+}
+
+.btn:focus-visible {
+    color: var(--main-color);
 }

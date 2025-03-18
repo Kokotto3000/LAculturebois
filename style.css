@@ -35,6 +35,17 @@ a{
     font-weight: bold;
 }
 
+.main-carousel{
+    mask: linear-gradient(180deg, white 60%, transparent 100%);
+    height: 300px;
+}
+
+.main-carousel img{
+    top: -50%;
+    height: 300px;
+    min-width: 100%;
+}
+
 .carousel-inner_overlay, .blog-inner_overlay{
     position: absolute;
     top: 0;
@@ -194,6 +205,10 @@ a{
     z-index: 10;
 }
 
+#story{
+    scroll-margin-top: 100px;
+}
+
 #story h1, #story h2, #story h3, #contact h2{
     color: var(--main-color);
 }
@@ -214,6 +229,10 @@ a{
 /* #contact{
     background-color: rgba(68,59,58, .5);
 } */
+
+.devis-contact{
+    background-color: var(--main-grey);
+}
 
 footer{
     background-color: var(--main-grey);
@@ -299,7 +318,7 @@ footer .nav-item a{
     font-size: larger;
 }
 
-#navbarSupportedContent a:after {    
+#navbarSupportedContent a:not(.btn):after {    
   background: none repeat scroll 0 0 transparent;
   bottom: 0;
   content: "";
@@ -571,4 +590,24 @@ footer .nav-item a:focus-visible {
     background-repeat: no-repeat;
     background-size: cover;
     height: 700px;
+}
+
+@media screen and (min-width: 768px){
+    .main-carousel{
+        height: 700px;
+    }
+    
+    .main-carousel img{
+        height: 700px;
+    }
+}
+
+@media screen and (min-width: 1200px){
+    .main-carousel{
+        height: 1000px;
+    }
+    
+    .main-carousel img{
+        height: 1000px;
+    }
 }

@@ -114,10 +114,10 @@ a{
     text-decoration: none;
 }
 
-.menu-secondary h2{
+/* .menu-secondary h2{
     color: white;
-    /* transition: all ease 200ms; */
-}
+    transition: all ease 200ms;
+} */
 
 /* .menu-secondary:hover h2{
     color: var(--main-color);
@@ -129,6 +129,7 @@ a{
 
 .menu-secondary_title h1{
     color: white;
+    color: #EE7D01;
 }
 
 .menu-secondary_univers{

@@ -127,8 +127,7 @@ a{
     background-color: var(--main-grey);
 }
 
-.menu-secondary_title h1{
-    color: white;
+.menu-secondary_title h2{
     color: #EE7D01;
 }
 
@@ -210,7 +209,7 @@ a{
     scroll-margin-top: 100px;
 }
 
-#story h1, #story h2, #story h3, #contact h2{
+#story h2, #story h3, #contact h2{
     color: var(--main-color);
 }
 
@@ -416,7 +415,7 @@ footer .nav-item a{
     /*border-radius: 10px;*/
 }
 
-h2.featurette-heading, .text-body-emphasis{
+h1.featurette-heading, .text-body-emphasis{
     color: var(--main-grey) !important;
 }
 

@@ -415,7 +415,7 @@ footer .nav-item a{
     /*border-radius: 10px;*/
 }
 
-h1.featurette-heading, .text-body-emphasis{
+h1.featurette-heading, .bg-philo h2.featurette-heading, .text-body-emphasis{
     color: var(--main-grey) !important;
 }
 

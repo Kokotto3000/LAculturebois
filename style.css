@@ -35,6 +35,11 @@ a{
     font-weight: bold;
 }
 
+.nav-item .btn.active{
+    background-color: var(--main-color);
+    border: var(--main-color);
+}
+
 .main-carousel{
     mask: linear-gradient(180deg, white 60%, transparent 100%);
     height: 300px;

@@ -26,6 +26,10 @@ a{
     color: var(--main-color);
 }
 
+li{
+    list-style: none;
+}
+
 /* a:hover, a:active, a:focus{
     text-decoration: underline wavy;
 } */
@@ -615,4 +619,8 @@ footer .nav-item a:focus-visible {
     .main-carousel img{
         height: 1000px;
     }
+}
+
+#article, #news{
+    background: linear-gradient(180deg,  var(--main-color)0%,  var(--main-color)50%, white 50%,  white 100%);
 }

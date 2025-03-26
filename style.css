@@ -361,7 +361,7 @@ footer .nav-item a{
     background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(68,59,58,1) 50%);
 }
 
-#blog .card{
+#blog .card, #news .card, #article .card{
     height: 350px;
     border: none;
 }

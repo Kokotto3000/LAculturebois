@@ -605,6 +605,10 @@ footer .nav-item a:focus-visible {
     height: 700px;
 }
 
+footer section.devis-contact a[href*="tel:"] {
+    font-size: 40px;
+}
+
 @media screen and (min-width: 768px){
     .main-carousel{
         height: 700px;

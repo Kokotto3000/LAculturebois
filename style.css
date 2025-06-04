@@ -169,7 +169,7 @@ li{
 }
 
 .carousel-services{
-    max-height: 300px;
+    max-height: 500px;
     overflow: hidden;
 }
 
@@ -482,7 +482,13 @@ a.page-link:hover, a.page-link:focus{
 }
 
 .category-menu_img{
+    transition: all 600ms ease-out;
     filter: blur(1px);
+}
+
+.techno-page .category-menu_img{
+    transform: scale(0.9);
+    filter: blur(0.5px);
 }
 
 .menu-secondary_univers.category-menu:hover, .menu-secondary_univers.category-menu:active, .menu-secondary_univers.category-menu:focus{
@@ -499,6 +505,7 @@ a.page-link:hover, a.page-link:focus{
 
 .menu-secondary_univers.category-menu:hover img, .menu-secondary_univers.category-menu:active img, .menu-secondary_univers.category-menu:focus img{
     filter: none;
+    transform: scale(1);
 }
 
 .product-menu{
@@ -631,4 +638,8 @@ footer section.devis-contact a[href*="tel:"] {
 
 #article, #news{
     background: linear-gradient(180deg,  var(--main-color)0%,  var(--main-color)50%, white 50%,  white 100%);
+}
+
+.ofyr-logo{
+    filter: invert(1);
 }

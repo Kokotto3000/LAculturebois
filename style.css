@@ -26,9 +26,9 @@ a{
     color: var(--main-color);
 }
 
-li{
+/* li{
     list-style: none;
-}
+} */
 
 .services ul li{
     list-style-type: disc;
@@ -524,7 +524,7 @@ a.page-link:hover, a.page-link:focus{
     border: 1px var(--main-color) solid;
 }
 
-.btn.btn-outline-primary:hover, .btn.btn-outline-primary:active, .btn.btn-outline-primary:focus{
+.btn.btn-outline-primary:hover, .btn.btn-outline-primary:active, .btn.btn-outline-primary:focus, .btn-outline-primary[aria-expanded="true"]{
     color: white;
     background-color: var(--main-color);
     border: 1px var(--main-color) solid;

@@ -643,3 +643,7 @@ footer section.devis-contact a[href*="tel:"] {
 .ofyr-logo{
     filter: invert(1);
 }
+
+.category-img{
+    max-width: 650px;
+}

@@ -34,6 +34,10 @@ a{
     list-style-type: disc;
 }
 
+ol li{
+    list-style: none;
+}
+
 /* a:hover, a:active, a:focus{
     text-decoration: underline wavy;
 } */
@@ -180,7 +184,24 @@ a{
         rgba(68,59,58, 1)), url(./img/petro-1.jpg);
     background-position: center center;
     background-size: 100%;
-    /* background-attachment: fixed; */
+}
+
+.chauffage-banner.altech-chauffage{
+    background: linear-gradient(
+        to bottom,
+        rgba(68,59,58, 0.6),
+        rgba(68,59,58, 1)), url(./img/altech/ecosy.jpg);
+    background-position: center center;
+    background-size: 100%;
+}
+
+.chauffage-banner.tulikivi-cuisson{
+    background: linear-gradient(
+        to bottom,
+        rgba(68,59,58, 0.6),
+        rgba(68,59,58, 1)), url(./img/tulikivi/tlu-tulikivi.jpg);
+    background-position: center center;
+    background-size: 100%;
 }
 
 .chauffage-banner-title{
@@ -646,4 +667,8 @@ footer section.devis-contact a[href*="tel:"] {
 
 .category-img{
     max-width: 650px;
+}
+
+#category-products h3{
+    color: var(--main-color);
 }

@@ -204,6 +204,78 @@ ol li{
     background-size: 100%;
 }
 
+.chauffage-banner.archambaud-chauffage{
+    background: linear-gradient(
+        to bottom,
+        rgba(68,59,58, 0.6),
+        rgba(68,59,58, 1)), url(./img/archambaud/prestige-couv.jpg);
+    background-position: center center;
+    background-size: 100%;
+}
+
+.chauffage-banner.archambaud-mixte{
+    background: linear-gradient(
+        to bottom,
+        rgba(68,59,58, 0.6),
+        rgba(68,59,58, 1)), url(./img/archambaud/legende-couv.jpg);
+    background-position: center center;
+    background-size: 100%;
+}
+
+.chauffage-banner.archambaud-cuisson{
+    background: linear-gradient(
+        to bottom,
+        rgba(68,59,58, 0.6),
+        rgba(68,59,58, 1)), url(./img/archambaud/origine-couv.jpg);
+    background-position: center center;
+    background-size: 100%;
+}
+
+.chauffage-banner.altech-mixte{
+    background: linear-gradient(
+        to bottom,
+        rgba(68,59,58, 0.6),
+        rgba(68,59,58, 1)), url(./img/altech/eclips.jpg);
+    background-position: center center;
+    background-size: 100%;
+}
+
+.chauffage-banner.ofyr{
+    background: linear-gradient(
+        to bottom,
+        rgba(68,59,58, 0.6),
+        rgba(68,59,58, 1)), url(./img/ofyr/ofyr-couv.jpg);
+    background-position: center center;
+    background-size: 100%;
+}
+
+.chauffage-banner.bastard{
+    background: linear-gradient(
+        to bottom,
+        rgba(68,59,58, 0.6),
+        rgba(68,59,58, 1)), url(./img/bastard/the-bastard-couv.JPG);
+    background-position: center center;
+    background-size: 100%;
+}
+
+.chauffage-banner.mixte{
+    background: linear-gradient(
+        to bottom,
+        rgba(68,59,58, 0.6),
+        rgba(68,59,58, 1)), url(./img/altech/vision.jpg);
+    background-position: center center;
+    background-size: 100%;
+}
+
+.chauffage-banner.cuisson{
+    background: linear-gradient(
+        to bottom,
+        rgba(68,59,58, 0.6),
+        rgba(68,59,58, 1)), url(./img/bastard/bastard-cuisson-couv.jpg);
+    background-position: center center;
+    background-size: 100%;
+}
+
 .chauffage-banner-title{
     color: #EE7D01;
     position: inherit;

@@ -276,6 +276,15 @@ ol li{
     background-size: 100%;
 }
 
+#contact .chauffage-banner{
+    background: linear-gradient(
+        to bottom,
+        rgba(68,59,58, 0.6),
+        rgba(68,59,58, 1)), url(./img/la-culture-bois-showroom.webp);
+    background-position: center center;
+    background-size: 100%;
+}
+
 .chauffage-banner-title{
     color: #EE7D01;
     position: inherit;
